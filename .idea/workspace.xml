@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0831214b-0927-4ce0-8885-d7010aaf3b4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/curso/itembased.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curso/mf/mf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curso/mf_keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curso/preprocess2dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curso/preprocess_shrink.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curso/userbased.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/advertisement_clicks.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/bayesian_bandit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/bayesian_normal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/bayesian_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/cdfs_and_percentiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/chisquare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/ci_comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/comparing_epsilons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/convergence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/epsilon_greedy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/epsilon_greedy_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/ex_chisq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/ex_ttest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/optimistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/optimistic_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/server_solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/server_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/ttest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/ucb1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab_testing/ucb1_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/ann.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/international-airline-passengers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/lr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airline/rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/backprop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/forwardprop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/sklearn_ann.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/tf_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class/xor_donut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso/mf/mf2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/adam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/batch_norm_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/batch_norm_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/cntk_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/dropout_tensorflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/dropout_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/grid_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/keras_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/keras_functional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/momentum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/mxnet_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/pytorch_batchnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/pytorch_dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/pytorch_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/pytorch_example2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/random_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/rmsprop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/rmsprop_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/sgd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/tensorflow1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/tensorflow2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/tf_with_save.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/theano1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/theano2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/theano_ann.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_class2/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/curso/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/ann_predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/ann_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/ecommerce_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/logistic_predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/logistic_softmax_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/logistic_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ann_logistic_extra/process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/Q.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/Xtest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/Xtrain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/nb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/ytest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/1/ytrain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/Q.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/Xtest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/Xtrain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/em.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/probit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/ytest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/2/ytrain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/X_set1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/X_set2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/X_set3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/y_set1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/y_set2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/y_set3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/z_set1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/z_set2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/3/z_set3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/4/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/4/emgmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/4/npbgmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian_ml/4/vigmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculus/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculus/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt_trading/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatgpt_trading/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/blur.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/cifar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/cnn_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/cnn_tf_plot_filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/cnn_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/cnn_theano_plot_filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/custom_blur.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/echo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/edge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/edge_benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/exercises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/helloworld.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/keras_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class/lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/class_activation_maps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/content/elephant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/content/sydney.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/fashion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/fashion2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/make_limited_datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/siamese.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/ssd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/style_transfer1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/style_transfer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/style_transfer3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/styles/flowercarrier.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/styles/lesdemoisellesdavignon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/styles/monalisa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/styles/starrynight.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/test_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet_convblock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet_convblock_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet_first_layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet_first_layers_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet_identity_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/tf_resnet_identity_block_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/use_pretrained_weights_resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/use_pretrained_weights_vgg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_class2/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/X.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/X_orig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/legend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_csv/y.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial_engineering/go_here_instead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/coin_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/edgar_allan_poe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/frost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/generate_c.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/generate_ht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/helloworld.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmm_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc_concat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc_scaled_concat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc_scaled_concat_diag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmc_theano2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmd_scaled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmd_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmd_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/hmmd_theano2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/robert_frost.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/scan1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/scan2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/scan3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/site_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/sites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/tf_scan1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/tf_scan2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmm_class/tf_scan3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/ann.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/basic_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/batchnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/cnn_cifar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/cnn_dropout_batchnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/sine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/sine2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_examples/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/data_1d.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/data_2d.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/data_poly.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/gd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/generate_1d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/generate_2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/generate_poly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/gradient_descent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/l1_regularization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/l2_regularization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/lr_1d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/lr_2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/lr_poly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/mlr02.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/moore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/moore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/overfitting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_regression_class/systolic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/bad_xor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/l1_regularization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic_donut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic_visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistic_regression_class/logistic_xor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_csv/Q.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_csv/Xtest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_csv/Xtrain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_csv/label_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist_csv/label_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive_bayes/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/naive_bayes/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/all_book_titles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/article_spinner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/cipher_placeholder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/electronics/negative.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/electronics/positive.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/electronics/unlabeled.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/lsa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/nb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/sentiment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/spam2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/spambase.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class/stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/bow_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/glove.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/glove_svd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/glove_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/glove_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/logistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/markov.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/ner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/ner_baseline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/ner_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/ner_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/neural_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/neural_network2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pmi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pos_baseline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pos_hmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pos_ner_keras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pos_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pos_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pretrained_glove.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/pretrained_w2v.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/recursive_tensorflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/recursive_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/rntn_tensorflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/rntn_tensorflow_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/rntn_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/tfidf_tsne.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/visualize_countries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/w2v_model.npz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/w2v_word2idx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/word2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/word2vec_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class2/word2vec_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/bilstm_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/bilstm_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/cnn_toxic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/convert_twitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/lstm_toxic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/memory_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/poetry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/simple_rnn_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_class3/wseq2seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_v2/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_v2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/classification_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/dot_for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/exercises/ex9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/manual_data_loading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/python3/dot_for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/python3/manual_data_loading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/regression_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/table1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_class/table2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prophet/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/aapl_msi_sbux.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/ann_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/exercises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/plot_rl_rewards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytorch/rl_trader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommenders/preprocess2dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommenders/preprocess2dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommenders/userbased.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommenders/userbased.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/approx_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/approx_prediction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/bayesian_bandit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/bayesian_normal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/bayesian_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/cartpole.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/cartpole_gym0.19.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/comparing_epsilons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/comparing_explore_exploit_methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/epsilon_greedy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/epsilon_greedy_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/grid_world.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/iterative_policy_evaluation_deterministic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/iterative_policy_evaluation_probabilistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/linear_rl_trader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/monte_carlo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/monte_carlo_es.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/monte_carlo_no_es.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/optimistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/optimistic_initial_values.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/optimistic_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/plot_rl_rewards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/policy_iteration_deterministic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/policy_iteration_probabilistic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/q_learning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/sarsa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/td0_prediction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/tic_tac_toe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/ucb1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/ucb1_starter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/value_iteration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/a3c/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/a3c/nets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/a3c/thread_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/a3c/worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/atari/dqn_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/atari/dqn_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/dqn_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/dqn_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/pg_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/pg_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/q_learning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/q_learning_bins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/random_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/save_a_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/td_lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/tf_warmup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/cartpole/theano_warmup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/gym_tutorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/n_step.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/pg_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/pg_tf_random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/pg_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/pg_theano_random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/q_learning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl2/mountaincar/td_lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/a2c/a2c.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/a2c/atari_wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/a2c/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/a2c/neural_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/a2c/play.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/a2c/subproc_vec_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/ddpg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/es_flappy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/es_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/es_mujoco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/es_simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/flappy2envs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/gym_review.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/plot_ddpg_result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/plot_es_flappy_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/plot_es_mujoco_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl3/sample_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/batch_gru.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/batch_parity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/batch_units.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/batch_wiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/brown.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/exercises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/gru.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/gru_nonorm_part1_wikipedia_word2idx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/gru_nonorm_part1_word_embeddings.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/mlp_parity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/poetry_classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/rrnn_language.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/srn_language.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/srn_language_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/srn_parity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/srn_parity_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/tf_parity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/visualize_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rnn_class/wiki.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/app_caller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/app_trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/bayes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/dt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/dt_without_recursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/knn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/knn_donut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/knn_fail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/knn_vectorized.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/knn_xor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/multinomialnb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/nb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/perceptron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/adaboost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/bagging_classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/bagging_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/bias_variance_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/bootstrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/knn_dt_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/rf_classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/rf_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/rf_vs_bag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/rf_vs_bag2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervised_class2/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/crossval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/fake_neural_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/kernel_svm_gradient_primal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/linear_svm_gradient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/rbfnetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/real_neural_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/svm_gradient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/svm_medical.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/svm_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/svm_smo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/svm_spam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_class/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/input_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/aapl_msi_sbux.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/auto-mpg.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/daily-minimum-temperatures-in-me.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/exercises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/fake_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/moore.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/plot_rl_rewards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/rl_trader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/sbux.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tf2.0/xor3d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeseries/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeseries/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformers/WHERE ARE THE NOTEBOOKS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformers/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/books.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/choose_k.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/evolution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/gmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/gmm_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/hcluster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/kmeans.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/kmeans_fail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/kmeans_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/kmeans_visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/neural_kmeans.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class/tweets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/autoencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/autoencoder_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/compare_pca_svd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/gaussian_nb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/pca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/pca_impl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/rbm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/rbm_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/sk_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/tsne_books.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/tsne_donut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/tsne_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/tsne_visualization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/tsne_xor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/umap_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/unsupervised.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/vanishing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/visualize_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class2/xwing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/autoencoder_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/autoencoder_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/bayes_classifier_gaussian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/bayes_classifier_gmm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/dcgan_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/dcgan_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/extra_reading.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/parameterize_guassian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/test_stochastic_tensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/vae_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/vae_theano.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unsupervised_class3/visualize_latent_space.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OvevY0grfg1uKllueX6ZjRlO00" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/curso" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\damia\Documents\GitHub\machine_learning_examples\curso" />
+      <recent name="C:\Users\damia\Documents\GitHub\machine_learning_examples\curso\mf" />
+      <recent name="C:\Users\damia\Documents\GitHub\machine_learning_examples\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mf_keras">
+    <configuration name="mf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine_learning_examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curso/mf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso/mf/mf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mf2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine_learning_examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curso/mf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso/mf/mf2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mf_keras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine_learning_examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curso" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso/mf_keras.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="userbased (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine_learning_examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recommenders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recommenders/userbased.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="userbased" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machine_learning_examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/curso" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/curso/userbased.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mf_keras" />
+        <item itemvalue="Python.mf2" />
+        <item itemvalue="Python.mf" />
+        <item itemvalue="Python.userbased" />
+        <item itemvalue="Python.userbased (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0831214b-0927-4ce0-8885-d7010aaf3b4b" name="Changes" comment="" />
+      <created>1682445715618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682445715618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommenders/preprocess_shrink.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/curso/userbased.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/curso/preprocess_shrink.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/curso/mf/mf.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/curso/mf/mf2.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/curso/mf/mf2.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/curso/mf_keras.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

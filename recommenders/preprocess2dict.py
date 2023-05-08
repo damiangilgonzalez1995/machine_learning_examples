@@ -13,7 +13,7 @@ from sklearn.utils import shuffle
 
 # load in the data
 # https://www.kaggle.com/grouplens/movielens-20m-dataset
-df = pd.read_csv('../large_files/movielens-20m-dataset/very_small_rating.csv')
+df = pd.read_csv('../data/very_small_rating.csv')
 
 N = df.userId.max() + 1 # number of users
 M = df.movie_idx.max() + 1 # number of movies
@@ -51,6 +51,7 @@ def update_user2movie_and_movie2user(row):
     movie2user[j].append(i)
 
   usermovie2rating[(i,j)] = row.rating
+
 df_train.apply(update_user2movie_and_movie2user, axis=1)
 
 # test ratings dictionary

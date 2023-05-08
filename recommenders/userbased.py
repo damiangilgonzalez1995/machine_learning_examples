@@ -56,7 +56,13 @@ limit = 5 # number of common movies users must have in common in order to consid
 neighbors = [] # store neighbors in this list
 averages = [] # each user's average rating for later use
 deviations = [] # each user's deviation for later use
+count = 0
+
 for i in range(N):
+
+  print(100 * (count / len(user2movie)))
+  count += 1
+
   # find the 25 closest users to user i
   movies_i = user2movie[i]
   movies_i_set = set(movies_i)
@@ -78,7 +84,7 @@ for i in range(N):
     if j != i:
       movies_j = user2movie[j]
       movies_j_set = set(movies_j)
-      common_movies = (movies_i_set & movies_j_set) # intersection
+      common_movies = (movies_i_set & movies_j_set) #intersection
       if len(common_movies) > limit:
         # calculate avg and deviation
         ratings_j = { movie:usermovie2rating[(j, movie)] for movie in movies_j }
@@ -94,7 +100,7 @@ for i in range(N):
         # insert into sorted list and truncate
         # negate weight, because list is sorted ascending
         # maximum value (1) is "closest"
-        sl.add((-w_ij, j))
+        sl.add((w_ij, j))
         if len(sl) > K:
           del sl[-1]
 
